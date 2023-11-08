@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>task animation</title>
+
+</head>
+<body>
+    <h1>DESCODIFICADAS</h1>
+    <h3>Eu amo tecnologia!</h3>
+    <img src="core.png">
+</body>
+
+<style>
+    * {
+        text-align: center;
+        background-color: pink;
+    }
+
+    h1 {
+        color:darkmagenta
+    }
+
+    h3 {
+        color: darkorchid;
+    }
+
+    /* CRIA ANIMAÇÃO PULSAR*/
+
+    img {
+        width:400;
+        height:400;
+        animation: pulse 1s linear infinite;
+    }
+
+    @keyframes pulse {
+
+        0% {opacity: 1;}
+        50% {opacity: 0.2;}
+        100% {opacity: 1;}
+
+    }
+</style>
+
+</html>
